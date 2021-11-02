@@ -1,0 +1,5 @@
+CREATE TABLE State(
+	idState INT IDENTITY(1,1) NOT NULL,
+	nameState VARCHAR(20) NOT NULL
+	PRIMARY KEY (idState)
+)
