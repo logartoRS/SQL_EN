@@ -1,0 +1,5 @@
+CREATE TABLE Career(
+	idCareer INT IDENTITY(1,1) NOT NULL,
+	career VARCHAR(50) NOT NULL,
+	PRIMARY KEY (idCareer)	
+)
